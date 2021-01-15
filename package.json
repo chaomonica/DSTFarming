@@ -1,0 +1,39 @@
+{
+  "name": "dstfarming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaomonica/DSTFarming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaomonica/DSTFarming/issues"
+  },
+  "homepage": "https://github.com/chaomonica/DSTFarming#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "redux": "^4.0.5",
+    "webpack-cli": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.0.0-beta.5",
+    "webpack": "^5.15.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
