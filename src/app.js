@@ -1,10 +1,21 @@
-import React from 'react';
-import reactDOM from 'react-dom';
+import React, {useState, useEffect} from 'react';
+import ReactDOM from 'react-dom';
+import CropDisplay from './components/CropDisplay.js';
 
 const App = () => {
+
   return (
-    <h1>Hello from react</h1>
+    <>
+      <h1>DST Interactive Crop Guide</h1>
+
+      <CropDisplay/>
+
+    </>
   )
 }
 
-reactDOM.render(<App />, document.getElementById('app'))
+
+
+
+ReactDOM.render(<App />, document.getElementById('app'))
+

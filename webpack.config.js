@@ -11,7 +11,10 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "DST Farming Guide",
-      template: '/dist/index.html',
+      template: '/dist/template-index.html',
+      filename: 'index.html',
+      inject: 'body'
+
     }),
   ],
   module: {
