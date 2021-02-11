@@ -1,4 +1,5 @@
 export const cropData = [
+
   ['Carrot Plant', true, true, true, false, -4, 2, 2, 0.75],
   ['Corn Stalk', true, false, true, true, 2, -4, 2, 0.75],
   ['Potato Plant', true, true, true, false, 2, 2, -4, 0.75],
@@ -15,5 +16,5 @@ export const cropData = [
   ['Pomegranate Branch', false, false, true, true, -8, 4, 4, 2]
 ];
 
-
+// ['Name', 'Autumn', 'Winter', 'Spring', 'Summer', 'Growth Formula', 'Compost', 'Manure', 'Drink'],
 //plant, autumn, winter, spring, summer, growth formula, compost, manure, drink
